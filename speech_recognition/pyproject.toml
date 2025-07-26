@@ -1,0 +1,12 @@
+[project]
+name = "speech-recognition"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "autopep8",
+    "mimic3-tts",
+    "pyaudio>=0.2.14",
+    "vosk>=0.3.45",
+]
